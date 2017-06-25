@@ -13,6 +13,7 @@ import { ScheduleComponent } from './schedule/schedule.component';
 import { PageContainerComponent } from './page-container/page-container.component';
 import { AboutComponent } from './about/about.component';
 import { FrontPageComponent } from './front-page/front-page.component';
+import { TitleBarComponent } from './title-bar/title-bar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FrontPageComponent } from './front-page/front-page.component';
     ScheduleComponent,
     PageContainerComponent,
     AboutComponent,
-    FrontPageComponent
+    FrontPageComponent,
+    TitleBarComponent
   ],
   imports: [ BrowserModule , AppRoutingModule ],
   providers: [],
